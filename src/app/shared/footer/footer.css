@@ -1,0 +1,36 @@
+/* Footer collé en bas de page */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #212529;
+  color: #adb5bd;
+  padding: 40px 0 20px;
+  margin-top: auto;
+}
+
+.footer h5 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer hr {
+  border-color: #495057;
+}

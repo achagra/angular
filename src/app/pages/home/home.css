@@ -1,0 +1,27 @@
+.home-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.home-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.home-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-address {
+  color: #495057;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #198754;
+}
