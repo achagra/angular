@@ -1,3 +1,4 @@
+
 .home-card {
   border: none;
   border-radius: 12px;
@@ -12,7 +13,13 @@
 
 .home-card .card-img-top {
   height: 200px;
+  width: 100%;
   object-fit: cover;
+}
+
+.home-card .card-title {
+  font-weight: 700;
+  color: #212529;
 }
 
 .card-address {
@@ -24,4 +31,8 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: #198754;
+}
+
+.home-card .btn {
+  border-radius: 8px;
 }
